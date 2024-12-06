@@ -1,0 +1,206 @@
+.nav-item {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+marquee {
+    color: red;
+}
+
+.aboutme-title {
+    text-align: center;
+}
+
+.aboutme {
+    text-align: center;
+}
+
+.aboutme p {
+    width: 320px;
+    padding: 40px;
+    align-items: center;
+}
+.me-img {
+    width: 320px;
+    border-radius: 50%;
+}
+
+.me-img + p {
+    display: inline-block;
+}
+
+
+/* Resume section style */
+.container-resume {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:rgb(232, 232, 232);
+}
+
+.container-resume img {
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 440px;
+    margin-top: 20px;
+}
+
+.container-resume h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.container-resume h5 {
+    display: inline-block;
+    margin: 5px 35px;
+}
+
+#education {
+    background-color: darkblue;
+    color: #fff;
+}
+
+.hard-skills, .soft-skills, .languages, .hobbies {
+    background-color: darkblue;
+    color: #fff;
+}
+
+.hard-skills-box {
+    width: 490px;
+    margin-right: 10px;
+}
+
+.soft-skills-box {
+    width: 490px;
+    margin-left: 10px;
+}
+
+.skills-box {
+    display: flex;
+}
+
+.skills-box-2 {
+    display: flex;
+}
+
+.languages-box {
+    width: 490px;
+    margin-right: 10px;
+}
+
+.hobbies-box {
+    width: 490px;
+    margin-left: 10px;
+}
+
+.download-resume {
+    margin-top: 20px;
+    margin-left: 252px;
+    padding: 9px 20px;
+    background-color: darkblue;
+    color: #fff;
+}
+/* End of Resume section style */
+
+
+
+/* Home Town section style */
+.hometown-title {
+    text-align: center;
+}
+
+.content-box-1, .content-box-2 {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hometown-img-box img {
+    width: 400px;
+
+}
+
+.hometown-text-box {
+    width: 400px;
+    padding: 20px;
+    font-size: 18px;
+}
+.district {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th, td {
+    padding: 10px 20px;
+    text-align: center;
+}
+/* End of Home Town section style */
+
+
+/* Activity section style */
+.activity-contiener {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.activity-contiener h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.activity-contiener h2 {
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* End of Activity section style */
+
+
+/* Contact section style*/
+.contact-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-container h1 {
+    text-align: center;
+}
+
+.contact-container fieldset {
+    width: 350px;
+    margin: 0 auto;
+    background-color:azure;
+}
+
+fieldset {
+    font-size: 18px;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+textarea {
+    padding: 5px 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    padding: 8px 20px;
+    margin: 0 140px;
+}
+/* End of Contact section style*/
